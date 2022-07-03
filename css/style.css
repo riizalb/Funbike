@@ -1,0 +1,73 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar img{
+    width: 150px;
+}
+
+.carousel-caption{
+    bottom: 200px;
+    left: 10%;
+    right: 10%;
+}
+
+.card a{
+    text-decoration: none;
+    color: goldenrod;
+}
+
+.tipsBanner{
+    background-image: url(../img/tips.jpg);
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+}
+
+.owl-carousel .item{
+    margin: 50px;
+}
+
+/* tampilan mobile */
+@media (min-width: 320px) and (max-width: 767px){
+    .carousel-caption{
+        top: 30px;
+        bottom: unset;
+    }
+
+    .carousel-caption h1{
+        font-size: larger;
+    }
+
+    .carousel-caption p{
+        font-size: small;
+    }
+
+    .carousel-caption button{
+        display: none;
+    }
+}
+
+footer{
+    background-color: rgb(255,193,7)
+}
+
+/* tampilan tablet */
+@media (min-width: 768px) and (max-width: 1024px){
+    .carousel-caption{
+        bottom: 100px;
+    }
+
+    .carousel-caption h1{
+        font-size: x-large;
+    }
+
+    .carousel-caption p, .carousel-caption button{
+        font-size: small;
+    }
+
+    .btn{
+        padding: 5px;
+    }
+}
